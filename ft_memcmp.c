@@ -16,7 +16,7 @@ int ft_memcmp(const void *s1, const void *s2, size_t n){
 #include <stdio.h>
 #include <string.h>
 int main(){
-    const void *s = "for her I would do anything";
+    const void *s = "for her I wouÝld do anything";
     const void *ss = "for her I would do anything";
     printf("thieres : %d\nmine : %d\n", memcmp(s, ss, 20), ft_memcmp(s, ss, 20));
 }
